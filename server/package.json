@@ -2,10 +2,15 @@
   "name": "alyons-website-server",
   "version": "0.0.1",
   "description": "Personal Website Backend for Alexander Lyons",
-  "main": "index.js",
+  "main": "index",
   "scripts": {
-    "test": "jest"
+    "build": "gulp build",
+    "start": "node ./build/index.js",
+    "serve": "gulp watch"
   },
+  "contributors": [
+    "Alexander Lyons <Alexander.Lyons@gmail.com> (https://github.com/alyons)"
+  ],
   "author": "Alexander Lyons",
   "license": "UNLICENSED"
 }
