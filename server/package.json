@@ -1,0 +1,11 @@
+{
+  "name": "alyons-website-server",
+  "version": "0.0.1",
+  "description": "Personal Website Backend for Alexander Lyons",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Alexander Lyons",
+  "license": "UNLICENSED"
+}
